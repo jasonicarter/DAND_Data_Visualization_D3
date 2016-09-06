@@ -1,0 +1,100 @@
+body {
+    background-color: white;
+    color: black;
+    font-size:10px;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#svg-wrapper svg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Consolas;
+}
+
+h1, h2 {
+    text-align: center
+}
+
+h1 {margin-bottom: 0}
+h2 {margin-top: 0}
+
+#filter {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+ul { list-style: none; }
+
+#toggleText { display: none; }
+
+a { text-decoration: none; }
+
+.message {
+    width: 600px;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.message p { font-size: 1.25em; }
+.instructions p { text-align: center; }
+
+.axis path,.axis line {
+    fill: none;
+    stroke:#b6b6b6;
+    shape-rendering: crispEdges;
+}
+
+.axis text, .neighbourhood_info, .housing_info {font-size: 8px}
+
+.tick text{fill: black;}
+
+g.neighbourhood.active{cursor: pointer;}
+
+text.label{
+  cursor: pointer;
+}
+
+text.value{
+  font-weight: bold;
+}
+
+/* Neighbourhood Map Styles */
+.map_mesh {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+  stroke-linejoin: round;
+}
+
+.map_outline {
+  fill: #ddd;
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.map_neighbourhood {
+  fill: #1f77b4;
+}
+
+.map_neighbourhood:hover {
+  fill: #636363;
+}
+
+.map_neighbourhood_name {
+  font-size: 14px;
+}
+
+text.map_neighbourhood_name {fill: black;}

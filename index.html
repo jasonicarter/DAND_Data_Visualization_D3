@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+    <head>
+        <title>Living in Toronto Neighbourhoods</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="//d3js.org/d3.v3.min.js" defer></script>
+        <script src="//d3js.org/topojson.v1.min.js" defer></script>
+        <script type="text/javascript" src="js/scripts.js" defer></script>
+        <script type="text/javascript" src="js/collapse.js" defer></script>
+    </head>
+    <body>
+        <div id="wrapper">
+            <h1>Toronto Community Housing and Neighbourhood Safety:</h1>
+            <h2>A Visualization of Misconception:</h2>
+            <div class="message">
+                <p>This visualization shows the misconception of safety in Toronto neighbourhoods as a correlation to community housing.</p> <p>The 20 top community housing neighborhoods, ranked by population ratio, are not leaders in neighbourhood crimes. That is, there is no obvious relationship between the type or rate of crime in a neighbourhood and that of the neighbourhood's community housing population ratio.</p>
+
+                <a id="displayText" href="javascript:toggle();">more...</a>
+                <div id="toggleText">
+                    <p>In recent years news of fires, violence and crime surrounding community housing has been in the spot light and has put these low-income housing communities on the <a href="https://en.wikipedia.org/wiki/NIMBY" target="_blank">NIMBY</a> list, along with wind turbines and solar panels.</p>
+                    <p>Toronto safety indicator data was last updated in 2014</p>
+                    <ul>
+                        <li><a href="https://www.thestar.com/news/gta/2016/01/11/toronto-community-housing-reorganizes-its-security-force.html" target="_blank">Toronto community housing reorganizes its security force</a></li>
+                        <li><a href="http://www.cbc.ca/news/canada/toronto/john-tory-blasts-toronto-community-housing-security-1.3154214" target="_blank">Major blasts Toronto community housing security</a></li>
+                        <li><a href="http://www.torontosun.com/2016/07/10/tackling-tchcs-thugs-still-stalled" target="_blank">Tackling Toronto community housing thugs still stalled</a></li>
+                        <li><a href="http://www1.toronto.ca/wps/portal/contentonly?vgnextoid=04b489fe9c18b210VgnVCM1000003dd60f89RCRD&vgnextchannel=75d6e03bb8d1e310VgnVCM10000071d60f89RCRD" target="_blank">OpenData Toronto - Neighbourhood boundaries</a></li>
+                        <li><a href="https://namara.io/#/data_sets/b668078d-7fb2-4ab0-9c7b-7c39f744b63c" target="_blank">Namara.io - Toronto safety indicators</a></li>
+                    </ul>
+                </div>
+                <h3 style="text-align: center">Neighbourhood Crime and the Community Housing Population Ratio</h3>
+                <div class="instructions"><p>( hover over neighbourhoods to interact with map and chart )</p></div>
+            </div>
+            <div id="svg-wrapper"></div>
+        </div>
+    </body>
+</html>
